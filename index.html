@@ -8,19 +8,23 @@
     <link rel="stylesheet" type="text/css" href="styles.css"/>
 </head>
 <body>
-    <!--Added a list for jumps to specific parts of the portfolio-->
-    <ul>
-        <li>
-            <a href="#About">About</a>
-        </li>
-        <li>
-            <a href="#Projects">Projects</a>
-        </li>
-        <li>
-            <a href="#Contact">Contact</a>
-        </li>
-    </ul>
-    <header>
+    <!--Changed list to a div container for jumps to specific parts of the portfolio-->
+   <div class="topnav">
+    <form method="GET" action="#Home">
+        <button type="submit" class="btn-grad" href="#Home">Home</button>
+    </form>
+    <form method="GET" action="#About">
+        <button type="submit" class="btn-grad" href="#About">About</button>
+    </form>
+    <form method="GET" action="#Projects">
+        <button type="submit" class="btn-grad" href="#Projects">Projects</button>
+    </form>
+    <form method="GET" action="#Contact">
+        <button type="submit" class="btn-grad" href="#Contact">Contact</button>
+    </form>
+   </div>
+
+    <header id="#Home" style="background-color: #1D2B64;">
         <h4>Hi, my name is,</h4>
         <h1>Abigail Aguilar</h1>
         <p>Web Developer and Illustartor based in Riverside, California</p>

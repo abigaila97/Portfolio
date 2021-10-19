@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abigail Aguilar</title>
     <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--Changed list to a div container for jumps to specific parts of the portfolio-->
@@ -24,22 +27,41 @@
     </form>
    </div>
 
-    <header id="#Home">
+    <header id="Home">
         <h4>Hi, my name is,</h4>
         <h1>Abigail Aguilar</h1>
         <p class="intro">Web Developer and Illustartor based in Riverside, California</p>
     </header>
 
-    <h2 id="#About">About Me</h2>
-    <p>Hello, my name is Abigail! I am an illustrator and front end developer.</p>
-    <p>Art has always been a passion of mine. Starting out as a child with crayons and growing up to be an illustrator with a variety of mediums.
-        My interest in web development started when I had to create a portfolio for my art. Using templates was easy but I could never get my portfolio to look the way I wanted it.
-        So, I decided that I would learn the necessary skills to create my own website.
-    </p>
+    <div id="About" class='about'>
+        <h2 class="subhead">About Me</h2>
+        <!-- <img src="Abigail.JPG" alt="image of Abigail Aguilar" height="643"> -->
+        <div class="about-container">
+            <img src="Abigail.JPG" alt="image of Abigail Aguilar" height="643">
+            <p class="about-bio">Hello, my name is Abigail! I am an illustrator and front end developer. Art has always been a passion of mine. Starting out as a child with crayons and growing up to be an illustrator with a variety of mediums.
+            My interest in web development started when I had to create a portfolio for my art. Using templates was easy but I could never get my portfolio to look the way I wanted it.
+            So, I decided that I would learn the necessary skills to create my own website.
+            </p> 
+        </div>
+    </div>
 
-    <h2 id="#Projects">Projects</h2>
+    <div id="Projects">
+        <h2 class="subhead">Projects</h2>
+        <div class="projects">
+            <a href="https://abigaila97.github.io/code-refactor/"><img src="Horiseon.png" src="https://abigaila97.github.io/code-refactor/" alt="Horiseon website image" height="500" width="700"></a>
+            <a href="https://placeholder.com"><img src="https://via.placeholder.com/450x300"></a>
+            <a href="https://placeholder.com"><img src="https://via.placeholder.com/450x300"></a>
+            <a href="https://placeholder.com"><img src="https://via.placeholder.com/450x300"></a>
+        </div>
+    </div>
 
-    <h2 id="#Contact">Contact Me</h2>
+    <div id="Contact">
+        <h2 class="subhead">Contact Me</h2>
+        <div class="contact-container">
+            <a href="https://github.com/abigaila97"><img src="GitHub_Logo.png" alt="Github logo" height="100"></a>
+            <a href="https://www.linkedin.com/in/abigail-a-129491a6/"><img src="linkedin.png" alt="Linkedin logo" height="100"></a>
+        </div>
+    </div>
 
     <footer>
 

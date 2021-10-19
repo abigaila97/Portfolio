@@ -1,21 +1,13 @@
 body {
     margin: 0;
+    background: #1D2B64;
 }
 
 .topnav {
-    background-color: #1D2B64;
     display: flex;
     justify-content: flex-end;
     flex: 100%;
     padding: 10px;
-    max-width: 1800px;
-    min-width: 660px;
-}
-
-@media screen and (max-width:992px) {
-    .topnav {
-        background-color: #F8CDDA;
-    }
 }
 
 .btn-grad {
@@ -44,40 +36,71 @@ body {
          
 header {
     padding: 250px;
-    background-color: #1D2B64;
-}
-
-@media screen and (max-width: :992px) {
-    header {
-        background-color: #F8CDDA;
-    }
-}
-
-@font-face {
-    font-family: 'lemon_milkmedium';
-    src: url('lemonmilk-medium-webfont.woff2') format('woff2'),
-         url('lemonmilk-medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
 }
 
 h4 {
     margin: 0;
     font-size: 20pt;
+    color: white;
 }
 
 h1 {
-    font-family: 'lemon_milkmedium';
-    font-size: 101pt;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 90pt;
+    color: white;
     display: flex;
     justify-content: center;
     margin: 0;
 }
 
 .intro {
-    margin: 0;
+    margin: 5px;
     display: flex;
     justify-content: flex-end;
     font-size: 18pt;
+    color: white;
+}
+
+.subhead {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: underline;
+}
+
+.about {
+    padding: 150px;
+}
+
+.about-container {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    background: #F8CDDA;
+}
+
+.about-bio {
+    margin: 50px;
+    width: 186px;
+    border-style: solid;
+    border-color: ivory;
+    padding: 21px;
+}
+
+.projects {
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+#Contact {
+    background: #3047a4;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
 }
